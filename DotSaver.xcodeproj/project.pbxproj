@@ -7,23 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B15FF1C29B5E7A200D51D4A /* LevelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15FF1B29B5E7A200D51D4A /* LevelManager.swift */; };
+		4B15FF1E29B5E99500D51D4A /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15FF1D29B5E99500D51D4A /* UITableViewExtension.swift */; };
+		4B15FF2029B5ED8A00D51D4A /* UIFeedbackGeneratorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15FF1F29B5ED8A00D51D4A /* UIFeedbackGeneratorExtension.swift */; };
+		4B15FF2229B5EDB800D51D4A /* TimeIntervalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15FF2129B5EDB800D51D4A /* TimeIntervalExtension.swift */; };
+		4B15FF2429B5EDE700D51D4A /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15FF2329B5EDE700D51D4A /* IntExtension.swift */; };
+		4B15FF2629B5EE2300D51D4A /* GameController+GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15FF2529B5EE2300D51D4A /* GameController+GameState.swift */; };
+		4B15FF2829B5F66300D51D4A /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B15FF2729B5F66300D51D4A /* UIViewExtension.swift */; };
 		4BC15DF729B212F500370E18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC15DF629B212F500370E18 /* AppDelegate.swift */; };
 		4BC15DF929B212F500370E18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC15DF829B212F500370E18 /* SceneDelegate.swift */; };
-		4BC15DFB29B212F500370E18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC15DFA29B212F500370E18 /* ViewController.swift */; };
-		4BC15DFE29B212F500370E18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC15DFC29B212F500370E18 /* Main.storyboard */; };
+		4BC15DFB29B212F500370E18 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC15DFA29B212F500370E18 /* GameController.swift */; };
 		4BC15E0029B212F500370E18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BC15DFF29B212F500370E18 /* Assets.xcassets */; };
 		4BC15E0329B212F500370E18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC15E0129B212F500370E18 /* LaunchScreen.storyboard */; };
+		4BC15E1229B22B3900370E18 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC15E1129B22B3900370E18 /* SettingsController.swift */; };
+		4BC15E1429B22B5E00370E18 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BC15E1329B22B5E00370E18 /* Settings.storyboard */; };
+		4BC15E1729B22C4500370E18 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC15E1629B22C4500370E18 /* UIColorExtension.swift */; };
+		4BC15E1A29B3052A00370E18 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC15E1929B3052A00370E18 /* ContainerView.swift */; };
+		4BC15E1C29B3147800370E18 /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC15E1B29B3147800370E18 /* UIFontExtension.swift */; };
+		4BC15E1E29B3223500370E18 /* ColorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC15E1D29B3223500370E18 /* ColorController.swift */; };
+		4BC15E2129B3A0E700370E18 /* AppearanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC15E2029B3A0E700370E18 /* AppearanceManager.swift */; };
+		4BC15E2329B3A13100370E18 /* DefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC15E2229B3A13100370E18 /* DefaultsManager.swift */; };
+		4BC15E2529B3A6E700370E18 /* SettingsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC15E2429B3A6E700370E18 /* SettingsExtension.swift */; };
+		4BC15E2729B3C74400370E18 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC15E2629B3C74400370E18 /* PlayerView.swift */; };
+		4BC15E2929B3C75300370E18 /* EnemyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC15E2829B3C75300370E18 /* EnemyView.swift */; };
+		4BC15E2C29B3C7D800370E18 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC15E2B29B3C7D800370E18 /* GameState.swift */; };
+		4BC15E2E29B3C7E400370E18 /* ScreenEdge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BC15E2D29B3C7E400370E18 /* ScreenEdge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B15FF1B29B5E7A200D51D4A /* LevelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelManager.swift; sourceTree = "<group>"; };
+		4B15FF1D29B5E99500D51D4A /* UITableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		4B15FF1F29B5ED8A00D51D4A /* UIFeedbackGeneratorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFeedbackGeneratorExtension.swift; sourceTree = "<group>"; };
+		4B15FF2129B5EDB800D51D4A /* TimeIntervalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalExtension.swift; sourceTree = "<group>"; };
+		4B15FF2329B5EDE700D51D4A /* IntExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		4B15FF2529B5EE2300D51D4A /* GameController+GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameController+GameState.swift"; sourceTree = "<group>"; };
+		4B15FF2729B5F66300D51D4A /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		4B15FF2929B658AF00D51D4A /* DotSaver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DotSaver.entitlements; sourceTree = "<group>"; };
 		4BC15DF329B212F500370E18 /* DotSaver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DotSaver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BC15DF629B212F500370E18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BC15DF829B212F500370E18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4BC15DFA29B212F500370E18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4BC15DFD29B212F500370E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BC15DFA29B212F500370E18 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		4BC15DFF29B212F500370E18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BC15E0229B212F500370E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BC15E0429B212F500370E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BC15E1129B22B3900370E18 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		4BC15E1329B22B5E00370E18 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		4BC15E1629B22C4500370E18 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		4BC15E1929B3052A00370E18 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		4BC15E1B29B3147800370E18 /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
+		4BC15E1D29B3223500370E18 /* ColorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorController.swift; sourceTree = "<group>"; };
+		4BC15E2029B3A0E700370E18 /* AppearanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceManager.swift; sourceTree = "<group>"; };
+		4BC15E2229B3A13100370E18 /* DefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultsManager.swift; sourceTree = "<group>"; };
+		4BC15E2429B3A6E700370E18 /* SettingsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsExtension.swift; sourceTree = "<group>"; };
+		4BC15E2629B3C74400370E18 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		4BC15E2829B3C75300370E18 /* EnemyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyView.swift; sourceTree = "<group>"; };
+		4BC15E2B29B3C7D800370E18 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		4BC15E2D29B3C7E400370E18 /* ScreenEdge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenEdge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +76,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B15FF1A29B5E75700D51D4A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4BC15E2629B3C74400370E18 /* PlayerView.swift */,
+				4BC15E2829B3C75300370E18 /* EnemyView.swift */,
+				4BC15E1929B3052A00370E18 /* ContainerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4BC15DEA29B212F500370E18 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +105,121 @@
 		4BC15DF529B212F500370E18 /* DotSaver */ = {
 			isa = PBXGroup;
 			children = (
-				4BC15DF629B212F500370E18 /* AppDelegate.swift */,
-				4BC15DF829B212F500370E18 /* SceneDelegate.swift */,
-				4BC15DFA29B212F500370E18 /* ViewController.swift */,
-				4BC15DFC29B212F500370E18 /* Main.storyboard */,
-				4BC15DFF29B212F500370E18 /* Assets.xcassets */,
-				4BC15E0129B212F500370E18 /* LaunchScreen.storyboard */,
+				4BC15E0C29B213AF00370E18 /* Application */,
+				4BC15E0B29B213AA00370E18 /* Sources */,
+				4BC15E0A29B213A200370E18 /* Resources */,
 				4BC15E0429B212F500370E18 /* Info.plist */,
+				4B15FF2929B658AF00D51D4A /* DotSaver.entitlements */,
 			);
 			path = DotSaver;
+			sourceTree = "<group>";
+		};
+		4BC15E0A29B213A200370E18 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4BC15E0E29B213D200370E18 /* Assets */,
+				4BC15E0D29B213CA00370E18 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4BC15E0B29B213AA00370E18 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4BC15E0F29B2280C00370E18 /* ViewControllers */,
+				4BC15E1F29B3A0D200370E18 /* Managers */,
+				4BC15E1529B22C3400370E18 /* Extensions */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4BC15E0C29B213AF00370E18 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4BC15DF629B212F500370E18 /* AppDelegate.swift */,
+				4BC15DF829B212F500370E18 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4BC15E0D29B213CA00370E18 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4BC15E1329B22B5E00370E18 /* Settings.storyboard */,
+				4BC15E0129B212F500370E18 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4BC15E0E29B213D200370E18 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4BC15DFF29B212F500370E18 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		4BC15E0F29B2280C00370E18 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4BC15E1829B3050C00370E18 /* Game */,
+				4BC15E1029B22B2400370E18 /* Settings */,
+				4BC15E2A29B3C7CA00370E18 /* Enums */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4BC15E1029B22B2400370E18 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4BC15E1129B22B3900370E18 /* SettingsController.swift */,
+				4BC15E2429B3A6E700370E18 /* SettingsExtension.swift */,
+				4BC15E1D29B3223500370E18 /* ColorController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		4BC15E1529B22C3400370E18 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4B15FF1F29B5ED8A00D51D4A /* UIFeedbackGeneratorExtension.swift */,
+				4B15FF1D29B5E99500D51D4A /* UITableViewExtension.swift */,
+				4BC15E1629B22C4500370E18 /* UIColorExtension.swift */,
+				4B15FF2729B5F66300D51D4A /* UIViewExtension.swift */,
+				4BC15E1B29B3147800370E18 /* UIFontExtension.swift */,
+				4B15FF2129B5EDB800D51D4A /* TimeIntervalExtension.swift */,
+				4B15FF2329B5EDE700D51D4A /* IntExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4BC15E1829B3050C00370E18 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				4BC15DFA29B212F500370E18 /* GameController.swift */,
+				4B15FF2529B5EE2300D51D4A /* GameController+GameState.swift */,
+				4B15FF1A29B5E75700D51D4A /* Views */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		4BC15E1F29B3A0D200370E18 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4BC15E2029B3A0E700370E18 /* AppearanceManager.swift */,
+				4BC15E2229B3A13100370E18 /* DefaultsManager.swift */,
+				4B15FF1B29B5E7A200D51D4A /* LevelManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4BC15E2A29B3C7CA00370E18 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				4BC15E2B29B3C7D800370E18 /* GameState.swift */,
+				4BC15E2D29B3C7E400370E18 /* ScreenEdge.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +280,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BC15E1429B22B5E00370E18 /* Settings.storyboard in Resources */,
 				4BC15E0329B212F500370E18 /* LaunchScreen.storyboard in Resources */,
 				4BC15E0029B212F500370E18 /* Assets.xcassets in Resources */,
-				4BC15DFE29B212F500370E18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +293,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BC15DFB29B212F500370E18 /* ViewController.swift in Sources */,
+				4B15FF2029B5ED8A00D51D4A /* UIFeedbackGeneratorExtension.swift in Sources */,
+				4B15FF1C29B5E7A200D51D4A /* LevelManager.swift in Sources */,
+				4B15FF2829B5F66300D51D4A /* UIViewExtension.swift in Sources */,
+				4BC15E1229B22B3900370E18 /* SettingsController.swift in Sources */,
+				4BC15DFB29B212F500370E18 /* GameController.swift in Sources */,
+				4B15FF2629B5EE2300D51D4A /* GameController+GameState.swift in Sources */,
+				4B15FF2229B5EDB800D51D4A /* TimeIntervalExtension.swift in Sources */,
+				4BC15E2529B3A6E700370E18 /* SettingsExtension.swift in Sources */,
+				4BC15E2729B3C74400370E18 /* PlayerView.swift in Sources */,
+				4BC15E1A29B3052A00370E18 /* ContainerView.swift in Sources */,
+				4BC15E1E29B3223500370E18 /* ColorController.swift in Sources */,
+				4BC15E2929B3C75300370E18 /* EnemyView.swift in Sources */,
+				4B15FF1E29B5E99500D51D4A /* UITableViewExtension.swift in Sources */,
+				4BC15E2C29B3C7D800370E18 /* GameState.swift in Sources */,
+				4BC15E2129B3A0E700370E18 /* AppearanceManager.swift in Sources */,
+				4B15FF2429B5EDE700D51D4A /* IntExtension.swift in Sources */,
+				4BC15E1C29B3147800370E18 /* UIFontExtension.swift in Sources */,
+				4BC15E1729B22C4500370E18 /* UIColorExtension.swift in Sources */,
+				4BC15E2E29B3C7E400370E18 /* ScreenEdge.swift in Sources */,
+				4BC15E2329B3A13100370E18 /* DefaultsManager.swift in Sources */,
 				4BC15DF729B212F500370E18 /* AppDelegate.swift in Sources */,
 				4BC15DF929B212F500370E18 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +321,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4BC15DFC29B212F500370E18 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4BC15DFD29B212F500370E18 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4BC15E0129B212F500370E18 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,16 +451,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DotSaver/DotSaver.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W3BJF5C568;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DotSaver/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dot Saver";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +471,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = abuyakov.DotSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,16 +485,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DotSaver/DotSaver.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = W3BJF5C568;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DotSaver/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Dot Saver";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +505,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = abuyakov.DotSaver;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
